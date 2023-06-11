@@ -1,0 +1,427 @@
+:root {
+    --mainColor: #00adbb;
+    --mainFont: 'Cairo', sans-serif;
+}
+
+* {
+    font-family: var(--mainFont);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--mainColor) #DFE9EB;
+}
+
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #31708f;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #31708f;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #31708f;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #275871;
+}
+
+
+
+/* ----------------------------------------HEADER------------------------------------- */
+
+.header {
+    background-color: var(--mainColor);
+    width: 100%;
+    height: 600px;
+    bottom: 373px;
+    right: 0px;
+    position: absolute;
+}
+
+.toolbar {
+    background-color: #01929c;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign-and-log-toolbar {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+
+.sign-up-button-one {
+    cursor: pointer;
+    background-color: #275871;
+    color: #08d0e1;
+    width: 80px;
+    border: solid transparent;
+    border-radius: 4px;
+    width: 93px;
+    border-radius: 25px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.sign-up-button-one:hover {
+    background-color: #275871b3;
+}
+
+.log-in-button-one {
+    margin-right: 400px;
+    cursor: pointer;
+    background-color: #08d0e1;
+    color: #275871;
+    width: 80px;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    width: 93px;
+    border-radius: 25px;
+    left: 100px;
+    position: absolute;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.log-in-button-one:hover {
+    background-color: #08cfe193;
+}
+
+.toolbar-title-five {
+    font-family: 'Delicious Handrawn', cursive;
+    cursor: pointer;
+    font-size: 40px;
+    color: #132d3a;
+    margin-right: 140px;
+    margin-left: 40px;
+}
+
+.toolbar p {
+    cursor: pointer;
+    border: solid 2px transparent;
+    padding: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.toolbar p:hover {
+    border: solid 2px;
+    border-color: transparent transparent #132d3a transparent;
+}
+
+.programing-img {
+    position: absolute;
+    right: 48%;
+    bottom: -125px;
+
+}
+
+.head-contat {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    right: 12%;
+    top: 140px;
+    color: #132d3a;
+}
+
+.head-text-contat {
+    text-align: right;
+}
+
+.sign-in-button-two {
+    cursor: pointer;
+    color: white;
+    background-color: #31708f;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 212px;
+    height: 28px;
+    position: absolute;
+    z-index: 2;
+    right: 12%;
+    top: 80%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.sign-in-button-two:hover {
+    border: 1px solid rgba(255, 255, 255, 0.58);
+}
+
+@media (max-width: 1380px) {
+    .toolbar-title-five {
+        margin-right: 140px;
+        margin-left: 20px;
+    }
+
+    .toolbar p {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1650px) {
+
+    .head-text-contat-h1 {
+        font-size: 30px;
+        font-weight: bold;
+        z-index: 2;
+    }
+
+    .head-text-contat-h2 {
+        font-size: 25px;
+        font-weight: bold;
+        z-index: 2;
+    }
+
+    .head-text-contat-h3 {
+        font-size: 16px;
+        font-weight: bold;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 1380px) {
+    .head-text-contat-h3 {
+        font-size: 13.8px;
+        font-weight: bold;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 1160px) {
+    .toolbar-title-five {
+        margin-right: 115px;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+
+    .toolbar p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .sign-and-log-toolbar {
+        position: absolute;
+        top: 25px;
+        left: 60px;
+    }
+}
+
+@media (max-width: 1160px) {
+
+    .header {
+        top: 0px;
+        height: 800px;
+    }
+
+    .head-text-contat-h1 {
+        top: 270px;
+        font-size: 28px;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .head-text-contat-h2 {
+        font-size: 25px;
+        font-weight: bold;
+        position: relative;
+        top: 233px
+    }
+
+    .head-text-contat-h3 {
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+        top: 215px;
+    }
+
+    .programing-img {
+        position: absolute;
+        right: 20%;
+        bottom: -100px;
+    }
+
+    .sign-in-button-two {
+        top: 680px;
+    }
+
+    svg {
+        display: none;
+    }
+}
+
+svg {
+    position: absolute;
+    top: 555px;
+    right: 0px;
+    z-index: 1;
+    display: block;
+}
+
+
+/* ----------------------------------------SITE BODY------------------------------------- */
+
+.site-body {
+    position: relative;
+    top: 980px;
+    width: 100%;
+    height: 2800px;
+}
+
+.first-h1-article {
+    position: absolute;
+    left: 44%;
+    color: #31708f;
+}
+
+.pragrah-one {
+    position: absolute;
+    text-align: right;
+    top: 120px;
+}
+
+.pragrah-two {
+    width: 101%;
+    height: 670px;
+    right: -8px;
+    position: absolute;
+    top: 574px;
+    text-align: right;
+    background-color: #f8f6f6;
+}
+
+.sec-h1-article {
+    position: absolute;
+    left: 35%;
+    color: #31708f;
+}
+
+.pragrah-three {
+    width: 100%;
+    height: 380px;
+    right: -8px;
+    position: absolute;
+    top: 1300px;
+    text-align: right;
+    background-color: #ffffff;
+}
+
+.third-h1-article {
+    position: absolute;
+    left: 41%;
+    color: #31708f;
+}
+
+.pragrah-four {
+    width: 101%;
+    height: 675px;
+    right: -8px;
+    position: absolute;
+    top: 1688px;
+    text-align: right;
+    background-color: #f8f6f6;
+}
+
+.fourth-h1-article {
+    position: absolute;
+    left: 38%;
+    color: #31708f;
+}
+
+.pragrah-four span {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------FOOTER------------------------------------- */
+
+.footer {
+    background-color: #00adbb;
+    right: 0px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -2815px;
+}
+
+.website-name-footer {
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+    cursor: default;
+    font-size: 55px;
+    color: #132d3a;
+    position: relative;
+    top: 15px;
+}
+
+.development-rights {
+    text-align: center;
+    cursor: default;
+    color: #132d3a;
+    position: relative;
+    top: 50px;
+}
+
+.social-media-links {
+    position: relative;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-media-links::after {
+    content: '丨';
+    color: #132d3a;
+    position: relative;
+    right: 68px;
+}
+
+.social-media-links a {
+    margin: 0px 8px;
+}
+
+.insta-link-footer {
+    text-decoration: none;
+}
+
+.github-link-footer {
+    text-decoration: none;
+}
+
+.insta-link-footer:hover {
+    text-decoration: underline;
+    color: #132d3a;
+}
+
+.github-link-footer:hover {
+    text-decoration: underline;
+    color: #132d3a;
+}
