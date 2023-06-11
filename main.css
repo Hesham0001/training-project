@@ -131,7 +131,7 @@
     border-color: transparent transparent #132d3a transparent;
 }
 
-.programing-img {
+.drink-water-img-header {
     position: absolute;
     right: 48%;
     bottom: -125px;
@@ -277,7 +277,7 @@
 
 svg {
     position: absolute;
-    top: 555px;
+    top: 532px;
     right: 0px;
     z-index: 1;
     display: block;
@@ -290,7 +290,7 @@ svg {
     position: relative;
     top: 980px;
     width: 100%;
-    height: 2800px;
+    height: 3250px;
 }
 
 .first-h1-article {
@@ -312,7 +312,7 @@ svg {
     position: absolute;
     top: 574px;
     text-align: right;
-    background-color: #f8f6f6;
+    background-color: #ecf6fd;
 }
 
 .sec-h1-article {
@@ -344,7 +344,7 @@ svg {
     position: absolute;
     top: 1688px;
     text-align: right;
-    background-color: #f8f6f6;
+    background-color: #ecf6fd;
 }
 
 .fourth-h1-article {
@@ -359,6 +359,59 @@ svg {
     font-weight: bold;
 }
 
+.sign-in-zoon {
+    position: relative;
+    width: 100%;
+    top: 261px;
+    max-width: 1100px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 28px;
+    border: 2px solid #c5ddef;
+}
+
+.main-contat-bottom-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-body-contan {
+    color: #01929c;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.bottom-body-buttom {
+    cursor: pointer;
+    color: white;
+    background-color: #01929c;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    right: 25%;
+    top: 65%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.symbol {
+    position: absolute;
+    font-weight: bold;
+    right: 150px;
+    transform: rotate(270deg);
+}
+
+.bottom-body-buttom:hover {
+    background-color: #2d6986;
+}
+
 
 /* ----------------------------------------FOOTER------------------------------------- */
 
@@ -368,7 +421,7 @@ svg {
     width: 100%;
     height: 200px;
     position: absolute;
-    bottom: -2815px;
+    bottom: -3265px;
 }
 
 .website-name-footer {
