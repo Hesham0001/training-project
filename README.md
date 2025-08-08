@@ -1,3 +1,3 @@
 # Training Project
-"This is my first project in my programming life."  
+"This is just my starter project in my coding career."  
 https://hesham0001.github.io/training-project/
